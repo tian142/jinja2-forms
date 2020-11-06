@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Froyo Ordering</title>
-    </head>
-    <body>
-        <!-- Your HTML code goes here! -->
+  <head>
+    <title>Froyo Ordering</title>
+  </head>
+  <body>
+    <!-- Your HTML code goes here! -->
+    <form action="/froyo_results" method="GET">
+      <p>What is your favorite Fro-Yo flavor?</p>
 
+      <input type="text" name="flavor" />
 
+      <p>What Topping would you like?</p>
 
-
-
-        
-    </body>
+      <input type="text" name="toppings" />
+      <br />
+      <input type="submit" value="Submit!" />
+    </form>
+  </body>
 </html>
